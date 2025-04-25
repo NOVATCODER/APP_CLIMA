@@ -1,16 +1,45 @@
 body {
-    font-family: Arial, sans-serif;
-    background: #eef2f3;
-    padding: 20px;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #292929;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   }
   
   .contenedor {
-    background: white;
+    background: rgb(217, 243, 222);
     border-radius: 10px;
     padding: 20px;
     display: inline-block;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 10px rgba(187, 175, 6, 0.445);
+  }
+  
+  .clima-card {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  h1:hover {
+    color: #3498db;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin: 5px 0;
   }
   
   input, button {
@@ -18,7 +47,14 @@ body {
     font-size: 16px;
     margin: 10px 5px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border:  solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  button:hover {
+    background-color: #0a5c92;
+    transition: background-color 0.3s ease-in-out;
   }
   
   button {
