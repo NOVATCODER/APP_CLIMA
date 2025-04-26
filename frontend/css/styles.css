@@ -10,11 +10,11 @@ body {
   }
   
   .contenedor {
-    background: rgb(217, 243, 222);
+    background: rgba(247, 249, 250, 0.959);
     border-radius: 10px;
     padding: 20px;
     display: inline-block;
-    box-shadow: 10px 10px 10px rgba(187, 175, 6, 0.445);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.842);
   }
   
   .clima-card {
@@ -58,8 +58,8 @@ body {
   }
   
   button {
-    background-color: #3498db;
-    color: white;
+    background-color: #0568aa;
+    color: rgb(247, 247, 247);
     border: none;
     cursor: pointer;
   }

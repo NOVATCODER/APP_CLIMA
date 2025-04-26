@@ -10,27 +10,29 @@
     <div class="contenedor">
         <div class="clima-card">
             <h1 class="titulo">🌤️ Clima Actual</h1>
-            <h2 id="ciudadNombre" class="subtitulo">Clima en Formosa</h2>
-            <p id="temperatura" class="parrafo">Cargando temperatura...</p>
-            <p id="descripcion" class="parrafo">Cargando descripción...</p>
+            <h2 id="ciudadNombreResultado" class="subtitulo">Clima en ...</h2>
+            <p id="temperaturaResultado" class="parrafo">Cargando temperatura...</p>
+            <p id="descripcionResultado" class="parrafo">Cargando descripción...</p>
         </div>
         <!-- Input y botón -->
     <input type="text" id="inputCiudad" placeholder="Escribe una ciudad">
-    <button id="btnBuscar">Buscar</button>
+    <button id="buscar" >Buscar</button>
 
     <!-- Zona donde se mostrarán los datos -->
     <div id="infoClima">
-      <p id="ciudadNombre"></p>
-      <p id="temperatura"></p>
-      <p id="descripcion"></p>
+      <p id="ciudadNombreResultado"></p>
+      <p id="temperaturaResultado"></p>
+      <p id="descripcionResultado"></p>
       <p id="humedad"></p>
       <p id="viento"></p>
       <p id="hora"></p>
       <p id="mensajeError" class="error"></p>
     </div>
-  </div>
+    
 
     </div>
+
+    
 
     <script src="../public/script.js"></script>
 </body>
