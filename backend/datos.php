@@ -1,6 +1,10 @@
 <?php 
 header('Content-Type: application/json');
 
+// Configurar la zona horaria
+date_default_timezone_set("America/Argentina/Buenos_Aires");
+
+
 $apikey = "76e607a46cf0fc6cd3b37399fc03305a"; 
 
 $ciudad = isset($_GET['ciudad']) ? $_GET['ciudad'] : "Formosa";
